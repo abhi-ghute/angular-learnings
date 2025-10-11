@@ -1,0 +1,17 @@
+<p>signals-example works!</p>
+
+<h3>{{count()}}</h3>
+<button (click)="increment()">Increment count</button>
+<button (click)="reset()">Reset count</button>
+
+<button (click)="count.set(0)">Reset Using Template</button>
+
+<br>
+<p>Show Count : {{showCount()}}</p>
+<p>Conditional Count : {{conditionalCount()}}</p>
+<button (click)="negationOfshowCount()">negationOfshowCount</button>
+<button (click)="updateUser()">Update User</button>
+
+<br>
+<p>Current user: {{ user() }}</p>
+<button (click)="changeUser()">Change User</button>
